@@ -1,7 +1,6 @@
-require('./logger');
+import React from "react";
+import ReactDom from "react-dom";
+import Hello from "./hello";
 
-// document.write('Welcome to my super App Test Siii Yes');
 
-console.warn('app loaded');
-
-var yes = '';
+ReactDom.render(<Hello name="Woodgrammers" />, document.getElementById('app'));
