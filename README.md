@@ -1,6 +1,8 @@
 # simple-webpack-starter
 
-`npm start`
+`npm start`  It will run: "webpack-dev-server"
+
+### Loaders
 
 - Babel
 
